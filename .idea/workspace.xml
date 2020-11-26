@@ -2,7 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ui/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/Get IAM training data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Get IAM training data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/analyze.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/analyze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/checkDirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/checkDirs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/corpus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/corpus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/filtrosImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/filtrosImagen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/imageDimen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/imageDimen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/pixelRelevance.npy" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/pixelRelevance.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/r-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/r-test1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/rf-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rf-test1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/test1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/testOCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/testOCR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/testOCR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/testOCR2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/translationInvariance.npy" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/translationInvariance.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data/translationInvarianceTexts.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/translationInvarianceTexts.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/data_in/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_in/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/doc/analyze.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/analyze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/doc/decoder_comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/decoder_comparison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/doc/graphics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/graphics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/doc/htr.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/htr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/doc/nn_overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/doc/nn_overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/accuracy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/accuracy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/charList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/charList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/model.zip" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/model.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/snapshot-38.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/snapshot-38.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/snapshot-38.index" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/snapshot-38.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/snapshot-38.meta" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/snapshot-38.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/model/wordCharList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/wordCharList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/out/0.png/summary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/summary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/DataLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/DataLoader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/MainteseractOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/MainteseractOCR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/SamplePreprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/SamplePreprocessor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/WordSegmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/WordSegmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/analyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/integrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/integrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/segmentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/traductor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcional/traductor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -36,11 +90,33 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS\htr" />
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS\ui\templates" />
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index">
+  <component name="RunManager" selected="Python.index (1)">
+    <configuration name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR_ICR_GPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,6 +130,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="integrate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR_ICR_GPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/htr/funcional" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/htr/funcional/integrate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="integrate (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR_ICR_GPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/funcional" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/funcional/integrate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,32 +201,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="traductor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCR_ICR_GPS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/htr/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/htr/src/traductor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.index (1)" />
+        <item itemvalue="Python.integrate (2)" />
+        <item itemvalue="Python.integrate (1)" />
         <item itemvalue="Python.index" />
         <item itemvalue="Python.integrate" />
-        <item itemvalue="Python.traductor" />
       </list>
     </recent_temporary>
   </component>
@@ -143,22 +242,22 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="225" key="GridCell.Tab.0.bottom" timestamp="1606399874380">
+    <state width="1345" height="244" key="GridCell.Tab.0.bottom" timestamp="1606414670460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606399874380" />
-    <state width="1345" height="225" key="GridCell.Tab.0.center" timestamp="1606399874380">
+    <state width="1345" height="244" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606414670460" />
+    <state width="1345" height="244" key="GridCell.Tab.0.center" timestamp="1606414670460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606399874380" />
-    <state width="1345" height="225" key="GridCell.Tab.0.left" timestamp="1606399874379">
+    <state width="1345" height="244" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606414670460" />
+    <state width="1345" height="244" key="GridCell.Tab.0.left" timestamp="1606414670460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606399874379" />
-    <state width="1345" height="225" key="GridCell.Tab.0.right" timestamp="1606399874380">
+    <state width="1345" height="244" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606414670460" />
+    <state width="1345" height="244" key="GridCell.Tab.0.right" timestamp="1606414670460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606399874380" />
+    <state width="1345" height="244" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606414670460" />
     <state x="179" y="45" key="SettingsEditor" timestamp="1606364885234">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
