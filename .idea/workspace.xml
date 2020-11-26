@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="" />
+    <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htr/src/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/htr/src/Model.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,7 @@
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.traductor">
+  <component name="RunManager" selected="Python.integrate">
     <configuration name="integrate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.traductor" />
         <item itemvalue="Python.integrate" />
+        <item itemvalue="Python.traductor" />
       </list>
     </recent_temporary>
   </component>
@@ -109,21 +112,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1606356057510">
+    <state width="1345" height="168" key="GridCell.Tab.0.bottom" timestamp="1606357270629">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
-    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1606356057510">
+    <state width="1345" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606357270629" />
+    <state width="1345" height="168" key="GridCell.Tab.0.center" timestamp="1606357270628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
-    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1606356057510">
+    <state width="1345" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606357270628" />
+    <state width="1345" height="168" key="GridCell.Tab.0.left" timestamp="1606357270628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
-    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1606356057510">
+    <state width="1345" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606357270628" />
+    <state width="1345" height="168" key="GridCell.Tab.0.right" timestamp="1606357270628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
+    <state width="1345" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606357270628" />
   </component>
 </project>
