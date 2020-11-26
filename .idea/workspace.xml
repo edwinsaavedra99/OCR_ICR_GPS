@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1knlrjkdHYduxngPHnve9eA1ARJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,13 +26,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.traductor">
     <configuration name="integrate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,8 +55,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="traductor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR_ICR_GPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/htr/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/htr/src/traductor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.traductor" />
         <item itemvalue="Python.integrate" />
       </list>
     </recent_temporary>
@@ -82,21 +109,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="247" key="GridCell.Tab.0.bottom" timestamp="1606353476819">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom" timestamp="1606356057510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606353476819" />
-    <state width="1345" height="247" key="GridCell.Tab.0.center" timestamp="1606353476818">
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center" timestamp="1606356057510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606353476818" />
-    <state width="1345" height="247" key="GridCell.Tab.0.left" timestamp="1606353476818">
+    <state width="1345" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left" timestamp="1606356057510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606353476818" />
-    <state width="1345" height="247" key="GridCell.Tab.0.right" timestamp="1606353476818">
+    <state width="1345" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right" timestamp="1606356057510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="247" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606353476818" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606356057510" />
   </component>
 </project>
