@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ICR Demo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300'>
+
+  <style>
+    html,body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(to top, #4f724f, #8699AA);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .upload {
+        position: relative;
+        width: 400px;
+        min-height: 445px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding-bottom: 20px;
+        background: #fff;
+        -webkit-animation: fadeup .5s .5s ease both;
+        animation: fadeup .5s .5s ease both;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    .upload .upload-files header {
+        background: #df973a;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        text-align: center;
+    }
+    .upload .upload-files header p {
+        color: #fff;
+        font-size: 40px;
+        margin: 0;
+        padding: 50px 0;
+    }
+    .upload .upload-files header p i {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        opacity: 0;
+        font-size: 30px;
+        -webkit-animation: fadeup .5s 1s ease both;
+        animation: fadeup .5s 1s ease both;
+    }
+    .upload .upload-files header p .up {
+        font-weight: bold;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+        display: inline-block;
+        opacity: 0;
+        -webkit-animation: faderight .5s 1.5s ease both;
+        animation: faderight .5s 1.5s ease both;
+    }
+    .upload .upload-files header p .load {
+        display: inline-block;
+        font-weight: 100;
+        margin-left: -8px;
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+        opacity: 0;
+        -webkit-animation: faderight 1s 1.5s ease both;
+        animation: faderight 1s 1.5s ease both;
+    }
+.upload .upload-files .body {
+  text-align: center;
+  padding: 50px 0;
+  padding-bottom: 30px;
+}
+.upload .upload-files .body.hidden {
+  display: none;
+}
+.upload .upload-files .body input {
+  visibility: hidden;
+}
+.upload .upload-files .body i {
+  font-size: 65px;
+  color: lightgray;
+}
+.upload .upload-files .body p {
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 1.4;
+}
+.upload .upload-files .body p b,
+.upload .upload-files .body p a {
+  color: #df973a;
+}
+.upload .upload-files .body.active {
+  border: dashed 2px #df973a;
+}
+.upload .upload-files .body.active i {
+  box-shadow: 0 0 0 -3px #fff, 0 0 0 lightgray, 0 0 0 -3px #fff, 0 0 0 lightgray;
+  -webkit-animation: file .5s ease both;
+          animation: file .5s ease both;
+}
+@-webkit-keyframes file {
+  50% {
+    box-shadow: -8px 8px 0 -3px #fff, -8px 8px 0 lightgray, -8px 8px 0 -3px #fff, -8px 8px 0 lightgray;
+  }
+  75%,
+          100% {
+    box-shadow: -8px 8px 0 -3px #fff, -8px 8px 0 lightgray, -16px 16px 0 -3px #fff, -16px 16px 0 lightgray;
+  }
+}
+@keyframes file {
+  50% {
+    box-shadow: -8px 8px 0 -3px #fff, -8px 8px 0 lightgray, -8px 8px 0 -3px #fff, -8px 8px 0 lightgray;
+  }
+  75%,
+          100% {
+    box-shadow: -8px 8px 0 -3px #fff, -8px 8px 0 lightgray, -16px 16px 0 -3px #fff, -16px 16px 0 lightgray;
+  }
+}
+.upload .upload-files .body.active .pointer-none {
+  pointer-events: none;
+}
+.upload .upload-files footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 0;
+}
+.upload .upload-files footer .divider {
+  margin: 0 auto;
+  width: 0;
+  border-top: solid 4px #df973a;
+  text-align: center;
+  overflow: hidden;
+  transition: width .5s ease;
+}
+.upload .upload-files footer .divider span {
+  display: inline-block;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
+  font-size: 12px;
+  padding-top: 8px;
+}
+.upload .upload-files footer.hasFiles {
+  height: auto;
+}
+.upload .upload-files footer.hasFiles .divider {
+  width: 100%;
+}
+.upload .upload-files footer.hasFiles .divider span {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  transition: -webkit-transform .5s .5s ease;
+  transition: transform .5s .5s ease;
+  transition: transform .5s .5s ease, -webkit-transform .5s .5s ease;
+}
+.upload .upload-files footer .list-files {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 5px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 210px;
+}
+.upload .upload-files footer .list-files::-webkit-scrollbar-track {
+  background-color: rgba(211, 211, 211, 0.25);
+}
+.upload .upload-files footer .list-files::-webkit-scrollbar {
+  width: 4px;
+  background-color: rgba(211, 211, 211, 0.25);
+}
+.upload .upload-files footer .list-files::-webkit-scrollbar-thumb {
+  background-color: rgba(77, 182, 172, 0.5);
+}
+.upload .upload-files footer .list-files .file {
+  width: 300px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: fade .35s ease both;
+          animation: fade .35s ease both;
+}
+.upload .upload-files footer .list-files .file .name {
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 80px;
+  text-align: left;
+}
+.upload .upload-files footer .list-files .file .progress {
+  width: 175px;
+  height: 5px;
+  border: solid 1px lightgray;
+  border-radius: 2px;
+  background: linear-gradient(to left, rgba(77, 182, 172, 0.2), rgba(77, 182, 172, 0.8)) no-repeat;
+  background-size: 100% 100%;
+}
+.upload .upload-files footer .list-files .file .progress.active {
+  -webkit-animation: progress 30s linear;
+          animation: progress 30s linear;
+}
+@-webkit-keyframes progress {
+  from {
+    background-size: 0 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+@keyframes progress {
+  from {
+    background-size: 0 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+.upload .upload-files footer .list-files .file .done {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #4db6ac;
+  border-radius: 50%;
+  margin-left: -10px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  position: relative;
+}
+.upload .upload-files footer .list-files .file .done:before {
+  content: "View";
+  position: absolute;
+  top: 0;
+  left: -5px;
+  font-size: 24px;
+  opacity: 0;
+}
+.upload .upload-files footer .list-files .file .done:hover:before {
+  transition: all .25s ease;
+  top: -30px;
+  opacity: 1;
+}
+.upload .upload-files footer .list-files .file .done.anim {
+  -webkit-animation: done1 .5s ease forwards;
+          animation: done1 .5s ease forwards;
+}
+.upload .upload-files footer .list-files .file .done.anim #path {
+  -webkit-animation: done2 2.5s .5s ease forwards;
+          animation: done2 2.5s .5s ease forwards;
+}
+.upload .upload-files footer .list-files .file .done #path {
+  stroke-dashoffset: 7387.59423828125;
+  stroke-dasharray: 7387.59423828125 7387.59423828125;
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 50px;
+}
+@-webkit-keyframes done2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes done2 {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes done1 {
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(0.25);
+            transform: scale(0.25);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 1;
+  }
+}
+@keyframes done1 {
+  50% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(0.25);
+            transform: scale(0.25);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 1;
+  }
+}
+.upload .upload-files footer .importar {
+  outline: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  margin: auto;
+  border: solid 1px #df973a;
+  color: #df973a;
+  background: transparent;
+  padding: 8px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-family: Roboto;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+  opacity: 0;
+  visibility: hidden;
+  margin-left: calc(50% - 40px);
+}
+.upload .upload-files footer .importar.active {
+  transition: opacity .5s 1.5s ease, background, -webkit-transform .5s 1.5s ease;
+  transition: transform .5s 1.5s ease, opacity .5s 1.5s ease, background;
+  transition: transform .5s 1.5s ease, opacity .5s 1.5s ease, background, -webkit-transform .5s 1.5s ease;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.upload .upload-files footer .importar:hover {
+  background: #df973a;
+  color: #fff;
+}
+@-webkit-keyframes fadeup {
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeup {
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes faderight {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes faderight {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 400px) {
+  .upload {
+    width: 100%;
+    height: 100%;
+  }
+}
+	  </style>
+
+
+</head>
+
+<body>
+ <form action = "https://icrshankmj.herokuapp.com/uploader" method = "POST" enctype = "multipart/form-data">
+  <div class="upload">
+ <div class="upload-files">
+  <header>
+   <p>
+    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+    <span class="up" style="font-size:60%">Reconocimiento Inteligente</span>
+    <span class="load" style="font-size:60%">de caracteres manuscritos</span>
+   </p>
+  </header>
+  <div class="body" id="drop">
+   <i class="fa fa-cloud-upload pointer-none" aria-hidden="true"></i>
+   <p class="pointer-none"><b>Arrastre su archivo de imagen</b><br /> o <a href="" id="triggerFile">busque en su equipo</a> para empezar a analizar</p>
+			<input type="file" name="file" />
+  </div>
+  <footer>
+   <div class="divider">
+    <span><AR>Archivo de imagen</AR></span>
+   </div>
+   <div class="list-files">
+    <!--   template   -->
+   </div>
+			<input class="importar" type="submit" value="Upload"/>
+  </footer>
+ </div>
+</div>
+
+
+
+    <script>
+	//DOM
+var $ = document.querySelector.bind(document);
+//APP
+var App = {};
+App.init = function () {
+	//Init
+	function handleFileSelect(evt) {
+		var files = evt.target.files; // FileList object
+		//files template
+		var template = "" + Object.keys(files).map(function (file) {
+			return "<div class=\"file file--" + file + "\">\n     <div class=\"name\"><span>" + files[file].name + "</span></div>\n     <div class=\"progress active\"></div>\n     <div class=\"done\">\n\t<a href=\"\" target=\"_blank\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 1000 1000\">\n\t\t<g><path id=\"path\" d=\"M500,10C229.4,10,10,229.4,10,500c0,270.6,219.4,490,490,490c270.6,0,490-219.4,490-490C990,229.4,770.6,10,500,10z M500,967.7C241.7,967.7,32.3,758.3,32.3,500C32.3,241.7,241.7,32.3,500,32.3c258.3,0,467.7,209.4,467.7,467.7C967.7,758.3,758.3,967.7,500,967.7z M748.4,325L448,623.1L301.6,477.9c-4.4-4.3-11.4-4.3-15.8,0c-4.4,4.3-4.4,11.3,0,15.6l151.2,150c0.5,1.3,1.4,2.6,2.5,3.7c4.4,4.3,11.4,4.3,15.8,0l308.9-306.5c4.4-4.3,4.4-11.3,0-15.6C759.8,320.7,752.7,320.7,748.4,325z\"</g>\n\t\t</svg>\n\t\t\t\t\t\t</a>\n     </div>\n    </div>";
+		}).join("");
+		$("#drop").classList.add("hidden");
+		$("footer").classList.add("hasFiles");
+		$(".importar").classList.add("active");
+		setTimeout(function () {
+			$(".list-files").innerHTML = template;
+		}, 1000);
+		Object.keys(files).forEach(function (file) {
+			var load = 2000 + file * 2000; // fake load
+			setTimeout(function () {
+				$(".file--" + file).querySelector(".progress").classList.remove("active");
+				$(".file--" + file).querySelector(".done").classList.add("anim");
+			}, load);
+		});
+	}
+	// trigger input
+	$("#triggerFile").addEventListener("click", function (evt) {
+		evt.preventDefault();
+		$("input[type=file]").click();
+	});
+	// drop events
+	$("#drop").ondragleave = function (evt) {
+		$("#drop").classList.remove("active");
+		evt.preventDefault();
+	};
+	$("#drop").ondragover = $("#drop").ondragenter = function (evt) {
+		$("#drop").classList.add("active");
+		evt.preventDefault();
+	};
+	$("#drop").ondrop = function (evt) {
+		$("input[type=file]").files = evt.dataTransfer.files;
+		$("footer").classList.add("hasFiles");
+		$("#drop").classList.remove("active");
+		evt.preventDefault();
+	};
+	//upload more
+	$(".importar").addEventListener("click", function () {
+		$(".list-files").innerHTML = "";
+		$("footer").classList.remove("hasFiles");
+		$(".importar").classList.remove("active");
+		setTimeout(function () {
+			$("#drop").classList.remove("hidden");
+		}, 500);
+	});
+	// input change
+	$("input[type=file]").addEventListener("change", handleFileSelect);
+}();</script>
+
+
+
+ </form>
+</body>
+
+</html>

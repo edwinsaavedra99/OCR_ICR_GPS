@@ -1,4 +1,4 @@
 from PIL import Image
-img = Image.open('test1.png')
-new_img = img.resize((173,73))
-new_img.save('r-test1.png','png')
+img = Image.open('../data_in/0.png')
+new_img = img.resize((473,373))
+new_img.save('../data_in/0.png','png')

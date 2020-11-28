@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ICR Demo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:100,300'>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/styleReconocimiento.css') }}">
+    </head>
+    <body>
+        <form method = "POST" enctype = "multipart/form-data">
+            <div class="upload">
+                <div class="upload-files">
+                    <header>
+                        <p>
+                            <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                            <span class="up" style="font-size:60%">Reconocimiento Inteligente</span>
+                            <span class="load" style="font-size:60%">de caracteres manuscritos</span>
+                        </p>
+                    </header>
+                    <div class="body" id="drop">
+                        <i class="fa fa-cloud-upload pointer-none" aria-hidden="true"></i>
+                        <p class="pointer-none"><b>Arrastre su archivo de imagen</b><br /> o <a href="" id="triggerFile">busque en su equipo</a> para empezar a analizar</p>
+                        <input type="file" name="file" />
+                    </div>
+                    <footer>
+                        <div class="divider">
+                            <span><AR>Archivo de imagen</AR></span>
+                        </div>
+                        <div class="list-files">
+                            <!--   template   -->
+                        </div>
+                        <input class="importar" type="submit" value="Upload"/>
+                    </footer>
+                </div>
+            </div>
+
+        </form>
+        <script src="{{ url_for('static', filename='js/icrImagen.js') }}"></script>
+    </body>
+</html>
