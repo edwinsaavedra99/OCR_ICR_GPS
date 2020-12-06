@@ -2,42 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/static/js/files.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/static/js/icrImagen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/templates/icr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/templates/reconocimiento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/templates/vista.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OCR_ICR_GPS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OCR_ICR_GPS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/restApp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/static/css/styleReconocimiento.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/uploads/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/uploads/richard2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/filtrosImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/filtrosImagen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/integrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/integrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/corpus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/corpus.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/imageDimen.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/imageDimen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/r-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/r-test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/rf-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/rf-test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_in/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_in/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_in/richard2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/DataLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/DataLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/MainteseractOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainteseractOCR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/SamplePreprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/SamplePreprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/WordSegmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/WordSegmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/integrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/integrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/segmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcional/traductor.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/traductor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_in/0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/0.png/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/0.png/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/0.png/summary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/0.png/summary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/templates/icr.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/templates/icr.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,8 +57,8 @@
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index (1)">
-    <configuration name="MainteseractOCR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.index">
+    <configuration name="MainteseractOCR (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,32 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/funcional" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/funcional/MainteseractOCR.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="filtrosImagen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCR_ICR_GPS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/data/filtrosImagen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/MainteseractOCR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="integrate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS\src\funcional\index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/integrate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="integrate (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="restApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -191,11 +150,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/funcional" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/funcional/integrate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/restApp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.index (1)" />
-        <item itemvalue="Python.index (1)" />
-        <item itemvalue="Python.integrate (2)" />
-        <item itemvalue="Python.MainteseractOCR" />
-        <item itemvalue="Python.filtrosImagen" />
+        <item itemvalue="Python.index" />
+        <item itemvalue="Python.restApp" />
+        <item itemvalue="Python.MainteseractOCR (1)" />
+        <item itemvalue="Python.integrate" />
+        <item itemvalue="Python.imageDimen" />
       </list>
     </recent_temporary>
   </component>
@@ -245,34 +204,34 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606490210666">
+    <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607279082776">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1606490210666" />
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom" timestamp="1606575473715">
+    <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1607279082776" />
+    <state width="1345" height="237" key="GridCell.Tab.0.bottom" timestamp="1607295457894">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606575473715" />
-    <state width="1345" height="220" key="GridCell.Tab.0.center" timestamp="1606575473714">
+    <state width="1345" height="237" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607295457894" />
+    <state width="1345" height="237" key="GridCell.Tab.0.center" timestamp="1607295457893">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606575473714" />
-    <state width="1345" height="220" key="GridCell.Tab.0.left" timestamp="1606575473714">
+    <state width="1345" height="237" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607295457893" />
+    <state width="1345" height="237" key="GridCell.Tab.0.left" timestamp="1607295457893">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606575473714" />
-    <state width="1345" height="220" key="GridCell.Tab.0.right" timestamp="1606575473714">
+    <state width="1345" height="237" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607295457893" />
+    <state width="1345" height="237" key="GridCell.Tab.0.right" timestamp="1607295457893">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="220" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606575473714" />
+    <state width="1345" height="237" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607295457893" />
     <state x="179" y="45" key="SettingsEditor" timestamp="1606487931815">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="179" y="45" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606487931815" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1606535117013">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1607273487966">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1606535117013" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1607273487966" />
     <state x="366" y="305" width="1016" height="549" key="dock-window-1" timestamp="1606540947691">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
