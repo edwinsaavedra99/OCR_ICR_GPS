@@ -2,8 +2,13 @@ from flask import Flask, render_template, request, redirect, url_for, send_from_
 from werkzeug.utils import secure_filename
 import os
 from integrate import *
+from PIL import Image
+from io import BytesIO
+#from base64 import b64decode,b64encode
+import base64
 
 UPLOAD_FOLDER = os.path.abspath("../data_in/")
+OUT_FOLDER = os.path.abspath("../out/0.png/")
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
 
 
@@ -36,6 +41,33 @@ def icrv3():
         return "File not allowed"
     return render_template('reconocimiento.html')
 
+@app.route("/icrgps", methods=["GET", "POST"])
+def icrgps():
+    if request.method == "POST":
+        some_json = request.get_json()
+        filename = '0.png'
+        filename = secure_filename(filename)
+        imagePath = (app.config["UPLOAD_FOLDER"]+"/"+filename)
+        img = Image.open(BytesIO(base64.b64decode(some_json['base64'].split(',')[1])))
+        img.save(imagePath,'png')
+        icr_main,prob = icrMain() #aqui tambien sacar la probabilidad - la imagen de pepe tambien de agregarse al proceso
+        fase1 = ''
+        fase2 = ''
+        fase3 = ''
+        probabilidad = prob
+        if(some_json['fase1A'] == True):
+            fase1 = 'test1' #imagen de pepe
+        if(some_json['fase2A'] == True):
+            #imagen-segmentada
+            img_aux = open(OUT_FOLDER+'/summary.png','rb')
+            img_aux = img_aux.read()
+            fase2 = str(base64.b64encode(img_aux))
+            fase2 = str('data:image/png;base64,') + fase2[2:len(fase2)-1]
+        if(some_json['fase3A'] == True):
+            fase3 = 'test3' #textoreconocido-v1
+        return jsonify({'textoReconocidofinal':icr_main,'fase1':fase1,'fase2':fase2,'fase3':fase3,'probabilidad':probabilidad}),201
+    else:
+        return jsonify({"about":"hello icr - gps"})
 
 @app.route("/icrv2", methods=["GET", "POST"])
 def icrv2():

@@ -102,7 +102,7 @@ def infer(model, fnImg):
     (recognized, probability) = model.inferBatch(batch, True)
     print('Recognized:', '"' + recognized[0] + '"')
     print('Probability:', probability[0])
-    return recognized[0]
+    return recognized[0],probability[0]
 
 
 def segmentation():
@@ -144,6 +144,8 @@ def icrMain():
     "main function"
     # optional command line args
     rpta = ''
+    prob = 0
+    number_of_files = 1
     parser = argparse.ArgumentParser()
     parser.add_argument('--train', help='train the NN', action='store_true')
     parser.add_argument('--validate', help='validate the NN', action='store_true')
@@ -187,14 +189,17 @@ def icrMain():
         model = Model(open(FilePaths.fnCharList).read(), decoderType, mustRestore=True, dump=args.dump)
         # crear
         rpta = ''
+        prob = 0
         segmentation()
         directory = '../out/0.png'
         number_of_files = sum(1 for item in os.listdir(directory) if isfile(join(directory, item)))-1
         for j in range(number_of_files):
             FilePaths.fnInfer = '../out/0.png/'+str(j)+'.png'
-            rpta+=str(infer(model, FilePaths.fnInfer))+' '
+            aux1,aux2 = infer(model, FilePaths.fnInfer)
+            rpta+=str(aux1)+' '
+            prob+=aux2
         print(rpta)
-    return rpta
+    return rpta, prob/number_of_files
         #infer(model, FilePaths.fnInfer)
         #infer(model, FilePaths.fnInfer2)
 
