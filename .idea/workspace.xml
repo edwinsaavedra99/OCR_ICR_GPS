@@ -2,83 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PreProccesImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_in/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/0.png/summary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/file/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/DataLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainteseractOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainteseractOCR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/SamplePreprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SamplePreprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/WordSegmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordSegmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/index.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/integrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/integrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/preIntegrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/restApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/restApp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/segmentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/segmentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/traductor.py" beforeDir="false" afterPath="$PROJECT_DIR$/traductor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Get IAM training data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/Get IAM training data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/PreProccesImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/PreProccesImage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/analyze.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/analyze.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/checkDirs.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/checkDirs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/corpus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/corpus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/filtrosImagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/filtrosImagen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/imageDimen.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/imageDimen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/pixelRelevance.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/pixelRelevance.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/r-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/r-test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/rf-test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/rf-test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/test1.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/test1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/testOCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/testOCR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/testOCR2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/testOCR2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/translationInvariance.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data/translationInvariance.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/translationInvarianceTexts.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/data/translationInvarianceTexts.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_in/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/analyze.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/analyze.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/decoder_comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/decoder_comparison.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/graphics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/graphics.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/htr.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/htr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/nn_overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/nn_overview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/accuracy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/accuracy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/charList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/charList.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/model/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/model.zip" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/snapshot-38.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/model/snapshot-38.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/snapshot-38.index" beforeDir="false" afterPath="$PROJECT_DIR$/model/snapshot-38.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/snapshot-38.meta" beforeDir="false" afterPath="$PROJECT_DIR$/model/snapshot-38.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/wordCharList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/model/wordCharList.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/0.png/summary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/static/css/styleReconocimiento.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/css/styleReconocimiento.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/static/js/files.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/js/files.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/static/js/icrImagen.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/js/icrImagen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/templates/icr.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/templates/icr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/templates/reconocimiento.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/templates/reconocimiento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/templates/vista.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/templates/vista.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/0.png/summary.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/0.png/summary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/file/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/file/1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +51,28 @@
       <recent name="C:\Users\Edwin\PycharmProjects\OCR_ICR_GPS\ui\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR_ICR_GPS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OCR_ICR_GPS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,27 +107,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/index.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="integrate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OCR_ICR_GPS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/app/integrate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.index" />
         <item itemvalue="Python.preIntegrate (1)" />
         <item itemvalue="Python.preIntegrate" />
-        <item itemvalue="Python.integrate" />
       </list>
     </recent_temporary>
   </component>
@@ -270,22 +202,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="134" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1607570274928" />
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1607576830746">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1607578203516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607576830746" />
-    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1607576830746">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607578203516" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1607578203516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607576830746" />
-    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1607576830746">
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607578203516" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1607578203516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607576830746" />
-    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1607576830746">
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607578203516" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1607578203516">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607576830746" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607578203516" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1607563307784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
