@@ -12,11 +12,11 @@ from SamplePreprocessor import preprocess
 
 class FilePaths:
 	"filenames and paths to data"
-	fnCharList = '../model/charList.txt'
-	fnAccuracy = '../model/accuracy.txt'
-	fnTrain = '../data/'
-	fnInfer = '../data/rf-test1.png'
-	fnCorpus = '../data/corpus.txt'
+	fnCharList = 'model/charList.txt'
+	fnAccuracy = 'model/accuracy.txt'
+	fnTrain = 'data/'
+	fnInfer = 'data/rf-test1.png'
+	fnCorpus = 'data/corpus.txt'
 
 
 def train(model, loader):
@@ -95,11 +95,15 @@ def infer(model, fnImg):
 	(recognized, probability) = model.inferBatch(batch, True)
 	print('Recognized:', '"' + recognized[0] + '"')
 	print('Probability:', probability[0])
+	return recognized[0],probability[0]
 
 
-def main():
+def icrPreIntegrate(self):
 	"main function"
 	# optional command line args
+	FilePaths.fnInfer = self +'0.png'
+	icrRec= ''
+	prob=''
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--train', help='train the NN', action='store_true')
 	parser.add_argument('--validate', help='validate the NN', action='store_true')
@@ -138,9 +142,9 @@ def main():
 	else:
 		print(open(FilePaths.fnAccuracy).read())
 		model = Model(open(FilePaths.fnCharList).read(), decoderType, mustRestore=True, dump=args.dump)
-		infer(model, FilePaths.fnInfer)
-
+		icrRec,prob = infer(model, FilePaths.fnInfer)
+	return icrRec,prob
 
 if __name__ == '__main__':
-	main()
+	icrPreIntegrate('data_in/0.png')
 

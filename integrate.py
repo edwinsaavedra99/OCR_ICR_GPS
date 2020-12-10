@@ -16,12 +16,12 @@ from WordSegmentation import wordSegmentation, prepareImg
 
 class FilePaths:
     "filenames and paths to data"
-    fnCharList = '../model/charList.txt'
-    fnAccuracy = '../model/accuracy.txt'
-    fnTrain = '../data/'
-    fnInfer = '../data/rf-test1.png'
-    fnInfer2 = '../data/test.png'
-    fnCorpus = '../data/corpus.txt'
+    fnCharList = 'model/charList.txt'
+    fnAccuracy = 'model/accuracy.txt'
+    fnTrain = 'data/'
+    fnInfer = 'data/rf-test1.png'
+    fnInfer2 = 'data/test.png'
+    fnCorpus = 'data/corpus.txt'
 
 
 def train(model, loader):
@@ -102,19 +102,19 @@ def infer(model, fnImg):
     (recognized, probability) = model.inferBatch(batch, True)
     print('Recognized:', '"' + recognized[0] + '"')
     print('Probability:', probability[0])
-    return recognized[0],probability[0]
+    return recognized[0], probability[0]
 
 
-def segmentation():
+def segmentation(ruta):
     """reads images from data_in/ and outputs the word-segmentation to out/"""
 
     # read input images from 'in' directory
-    imgFiles = os.listdir('../data_in/')
+    imgFiles = os.listdir(ruta)
     for (i, f) in enumerate(imgFiles):
         print('Segmenting words of sample %s' % f)
 
         # read image, prepare it by resizing it to fixed height and converting it to grayscale
-        img = prepareImg(cv2.imread('../data_in/%s' % f), 50)
+        img = prepareImg(cv2.imread(ruta+'%s' % f), 50)
 
         # execute segmentation with given parameters
         # -kernelSize: size of filter kernel (odd integer)
@@ -124,23 +124,22 @@ def segmentation():
         res = wordSegmentation(img, kernelSize=25, sigma=11, theta=7, minArea=100)
 
         # write output to 'out/inputFileName' directory
-        if not os.path.exists('../out/%s' % f):
-            os.mkdir('../out/%s' % f)
+        if not os.path.exists('out/%s' % f):
+            os.mkdir('out/%s' % f)
 
         # iterate over all segmented words
         print('Segmented into %d words' % len(res))
         for (j, w) in enumerate(res):
             (wordBox, wordImg) = w
             (x, y, w, h) = wordBox
-            cv2.imwrite('../out/%s/%d.png' % (f, j), wordImg)  # save word
+            cv2.imwrite('out/%s/%d.png' % (f, j), wordImg)  # save word
             cv2.rectangle(img, (x, y), (x + w, y + h), 0, 1)  # draw bounding box in summary image
 
         # output summary image with bounding boxes around words
-        cv2.imwrite('../out/%s/summary.png' % f, img)
+        cv2.imwrite('out/%s/summary.png' % f, img)
 
 
-
-def icrMain():
+def icrMain(ruta):
     "main function"
     # optional command line args
     rpta = ''
@@ -190,20 +189,19 @@ def icrMain():
         # crear
         rpta = ''
         prob = 0
-        segmentation()
-        directory = '../out/0.png'
-        number_of_files = sum(1 for item in os.listdir(directory) if isfile(join(directory, item)))-1
+        segmentation(ruta)
+        directory = 'out/0.png'
+        number_of_files = sum(1 for item in os.listdir(directory) if isfile(join(directory, item))) - 1
         for j in range(number_of_files):
-            FilePaths.fnInfer = '../out/0.png/'+str(j)+'.png'
-            aux1,aux2 = infer(model, FilePaths.fnInfer)
-            rpta+=str(aux1)+' '
-            prob+=aux2
+            FilePaths.fnInfer = 'out/0.png/' + str(j) + '.png'
+            aux1, aux2 = infer(model, FilePaths.fnInfer)
+            rpta += str(aux1) + ' '
+            prob += aux2
         print(rpta)
-    return rpta, prob/number_of_files
-        #infer(model, FilePaths.fnInfer)
-        #infer(model, FilePaths.fnInfer2)
+    return rpta, prob / number_of_files
+    # infer(model, FilePaths.fnInfer)
+    # infer(model, FilePaths.fnInfer2)
 
 
-if __name__ == '__main__':
-    icrMain()
-
+#if __name__ == '__main__':
+#    icrMain('../data_in/',False)

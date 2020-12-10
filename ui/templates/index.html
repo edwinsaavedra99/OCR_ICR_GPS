@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+</head>
+<body>
+    <h1>PROYECTO ACADEMICO - UNSA GESTION DE PROYECTOS </h1>
+    <p>visitar la ruta : "/icrv2" para probar el reconocedor en formato sencillo</p>
+    <h2>API</h2>
+    <p>
+        POST
+        URL: /icrgps
+        request
+        {
+	        "base64":"string64",
+	        "height":"",
+	        "width":"",
+	        "fase1A":true,
+	        "fase2A":false,
+	        "fase3A":true
+        }
+        response
+        {
+	        "textoReconocidofinal":"hola que tal",
+	        "fase1":"imagenpreprocesadaPEPEmejoraImage-strin64",
+	        "fase2":"imagensegmentacionimage-string64",
+	        "fase3":"StringtextoReconocidov1",
+	        "probabilidad":"12.13%"
+        }
+    </p>
+    <!--script src="{{ url_for('static', filename='js/script.js') }}"></script-->
+</body>
+</html>
