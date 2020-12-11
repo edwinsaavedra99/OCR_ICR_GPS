@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39b4c383-c8bc-43d3-a63b-ccdcd14d109f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,10 +230,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="179" y="45" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606487931815" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1607561481390">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1607657682577">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1607561481390" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1607657682577" />
     <state x="366" y="305" width="1016" height="549" key="dock-window-1" timestamp="1606540947691">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
