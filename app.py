@@ -94,4 +94,4 @@ def icrv2():
     return render_template('icr.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
